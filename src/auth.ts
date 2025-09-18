@@ -1,6 +1,6 @@
 // A placeholder for the GitHub Client ID.
 // Users will need to replace this with their own Client ID.
-const GITHUB_CLIENT_ID = 'Iv1.c4a45ab326588e27'; // Replace with your GitHub OAuth App's Client ID
+const GITHUB_CLIENT_ID = 'Iv1.Ov23liNDzhBHpiOCJaFT'; // Replace with your GitHub OAuth App's Client ID
 
 const GITHUB_AUTH_URL = 'https://github.com/login/oauth/authorize';
 const TOKEN_URL = 'https://github.com/login/oauth/access_token';
