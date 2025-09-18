@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && cp dist/index.html dist/404.html",
+    "deploy": "vite build && cp dist/index.html dist/404.html && touch dist/.nojekyll && gh-pages -d dist -b gh-pages",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "sass-embedded": "^1.92.1",
     "vite": "^5.2.0"
   },
